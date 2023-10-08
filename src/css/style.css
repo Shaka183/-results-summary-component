@@ -42,7 +42,7 @@ body {
     max-width:140px;
      background-image:linear-gradient(hsla(256, 72%, 46%, 1) 5%,
       hsla(241, 72%, 46%, 0) 98% );
-    margin-left:90px;
+    margin-left:98px;
     margin-top: 15px;
 }
 
@@ -76,7 +76,11 @@ body {
     color: var(--Light-lavender);
 }
 
+.container .card .inf {
+  display: flex;
+  flex-direction: column;
 
+}
 
 
 
