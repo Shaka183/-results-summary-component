@@ -8,45 +8,46 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    min-height:100%;
 }
 
-.container .card {
-    display: flex;
-    background-color: var(--White);
-    max-width: 50%;
-    height: 400px;
-    border-radius: 15px;
-    
-}
+ .container .card {
+display: flex;
+background-color:var(--White);
+max-width:500px;
+border-radius: 15px;
+box-shadow: 10px 10px 50px -30px  black;    
+} 
 
-.container .card .roxo {
+.container .card-1 .roxo {
     background-image: linear-gradient(hsl(252, 100%, 67%) 15%, hsl(241, 81%, 54%) 95%);
     display: flex;
     flex-direction: column;
-    max-width: 50%;
+    align-items: center;
     text-align: center;
     border-radius: 15px;
+    padding: 30px;
+    max-width: 350px;
+    width: 100%;    
    
 }
 
-.container .card .roxo .resultado{
+.container .card-1 .roxo .resultado{
     color: var(--Light-lavender);
     font-weight: 500;
-    margin-top: 25px;
+    font-size: 15px;
 }
 
-.container .card .roxo .numero {
+.container .card-1 .roxo .numero {
     border-radius: 50%;
     height: 140px;
-    max-width:140px;
-     background-image:linear-gradient(hsla(256, 72%, 46%, 1) 5%,
-      hsla(241, 72%, 46%, 0) 98% );
-    margin-left:98px;
-    margin-top: 15px;
+    width:140px;
+    background-image:linear-gradient(hsla(256, 72%, 46%, 1) 5%,
+     hsla(241, 72%, 46%, 0) 98% );
+    margin-top: 10px;
 }
 
-.container .card .roxo .numero .valor {
+.container .card-1 .roxo .numero .valor {
     font-size: 50px;
     font-weight: 800;
     color: var(--White);
@@ -54,7 +55,7 @@ body {
     
 } 
 
-.container .card .roxo .numero span {
+.container .card-1 .roxo .numero span {
     font-size: 13px;
     font-weight: 700;
     color: var(--Light-lavender);
@@ -62,25 +63,71 @@ body {
     padding-bottom: 30px;
 }
 
-.container .card .roxo h1 {
+.container .card-1 .roxo h1 {
     color: var(--Pale-blue);
     font-weight: 700;
     font-size: 20px;
-    margin-top: 30px
+    margin-top: 15px
 }
 
-.container .card .roxo p {
-    font-weight: 800;
-    font-size: 15px;
-    padding: 10px 60px;
+.container .card-1 .roxo p {
+    font-weight: 700;
+    font-size: 13px;
+    padding: 7px 3px;
     color: var(--Light-lavender);
 }
 
-.container .card .inf {
-  display: flex;
-  flex-direction: column;
-
+.container .card-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    width: 100%;
+    border-top-right-radius:15px;
+    padding: 30px;
 }
+
+.container .card-2  h2 {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.container .card-2 .summary li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+.container .card-2 button {
+    margin-top: auto;
+}
+
+.container .card-2 .Reactions {
+    color: var(--Light-red);
+    background-color: var(--Light-red-bg);
+}
+.container .card-2 .Memory{
+     color: var(--Orangey-yellow); 
+     background-color: var(--Orangey-yellow-bg);
+}
+.container .card-2 .Verbal {
+    color: var(--Green-teal);
+    background-color: var(--Green-teal-bg);
+}
+.container .card-2 .Visuals {
+    color: var(--Cobalt-blue);
+    background-color: var(--Cobalt-blue-bg);
+}
+
+
+
+
+
+
+
+
+
 
 
 
