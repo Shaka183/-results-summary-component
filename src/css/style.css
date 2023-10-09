@@ -91,9 +91,16 @@ box-shadow: 10px 10px 50px -30px  black;
     font-size: 15px;
 }
 
+.container .card-2 .summary li div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .container .card-2 .summary li {
     font-size: 13px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 10px;
     margin: 5px 0;
@@ -122,6 +129,7 @@ box-shadow: 10px 10px 50px -30px  black;
 .container .card-2 .Reactions {
     color: var(--Light-red);
     background-color: var(--Light-red-bg);
+
 }
 .container .card-2 .Memory{
      color: var(--Orangey-yellow); 
