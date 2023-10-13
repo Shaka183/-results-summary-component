@@ -116,9 +116,11 @@ box-shadow: 10px 10px 50px -30px  black;
     background-color: var(--Dark-blue);
     border: none;
     font-weight: 700;
+    transition: 0.5s ease-in-out;
 }
 
 .container .card-2 button:hover {
+    transform: scale(1.05);
     color:var(--White) ;
     background-image:linear-gradient(hsla(256, 72%, 46%, 1) 35%,
     hsl(241, 81%, 54%) 120% );
