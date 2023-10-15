@@ -29,6 +29,12 @@ box-shadow: 10px 10px 50px -30px  black;
     padding: 30px;
     max-width: 350px;
     width: 100%;    
+    color: var(--Light-lavender);
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--Light-lavender);
+    font-weight: 500;
+    font-size: 15px;
    
 }
 
@@ -58,9 +64,14 @@ box-shadow: 10px 10px 50px -30px  black;
 .container .card-1 .roxo .numero span {
     font-size: 13px;
     font-weight: 700;
-    color: var(--Light-lavender);
+    color: var(--White);
     margin-bottom:30px;
     padding-bottom: 30px;
+}
+
+.container .card-1 .roxo .numero:hover{
+    cursor: pointer;
+    transform:scale(1.08);
 }
 
 .container .card-1 .roxo h1 {
@@ -91,13 +102,13 @@ box-shadow: 10px 10px 50px -30px  black;
     font-size: 15px;
 }
 
-.container .card-2 .summary li div {
+.container .card-2  li div {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.container .card-2 .summary li {
+.container .card-2 li {
     font-size: 13px;
     display: flex;
     align-items: center;
@@ -131,11 +142,11 @@ box-shadow: 10px 10px 50px -30px  black;
 .container .card-2 .Reactions {
     color: var(--Light-red);
     background-color: var(--Light-red-bg);
-
 }
+
 .container .card-2 .Memory{
-     color: var(--Orangey-yellow); 
-     background-color: var(--Orangey-yellow-bg);
+    color: var(--Orangey-yellow); 
+    background-color: var(--Orangey-yellow-bg);
 }
 .container .card-2 .Verbal {
     color: var(--Green-teal);
@@ -146,6 +157,10 @@ box-shadow: 10px 10px 50px -30px  black;
     background-color: var(--Cobalt-blue-bg);
 }
 
+.container .card-2 .mapa:hover {
+    cursor: pointer;
+    transform:scale(1.08);
+}
 
 
 
